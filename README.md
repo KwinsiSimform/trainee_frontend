@@ -1,22 +1,84 @@
-# Getting Started with Create React App
+# CRUD App - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend for a CRUD (Create, Read, Update, Delete) application built using the MERN stack. It provides a simple UI to interact with the backend API.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+* View all items (GET)
+* Add new item (POST)
+* Update existing item (PUT)
+* Clean and minimal UI
+* Connected to backend API
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React (or plain HTML/CSS/JS if applicable)
+* Axios / Fetch API
+* CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
 
+```
+frontend/
+│-- src/
+│   │-- components/
+│   │-- App.js
+│   │-- index.js
+│-- public/
+│-- package.json
+```
 
-## Learn More
+## ⚙️ Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone https://github.com/your-username/frontend-repo.git
+```
+
+2. Navigate to the project:
+
+```
+cd frontend-repo
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm start
+```
+
+## 🔗 API Configuration
+
+Make sure the backend is running and update the API base URL if needed:
+
+```
+http://localhost:5000/api/items
+```
+
+## 📸 UI Preview
+
+* Displays list of items
+* Form to add new item
+* Form to update item
+
+## 🧠 Future Improvements
+
+* Delete functionality
+* Better UI (Bootstrap / Tailwind)
+* Form validation
+* Toast notifications
+
+## 👨‍💻 Author
+
+Your Name
+
+## 📄 License
+
+This project is licensed under the MIT License.
