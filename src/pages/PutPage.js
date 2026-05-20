@@ -11,7 +11,7 @@ function PutPage() {
     if (!id || !name || !description) return alert('All fields required');
 
     try {
-      await api.put(`/items/${id}`, { name, description });
+      await api.put(`items/${id}`, { name, description });
       alert('Item updated!');
       setId('');
       setName('');

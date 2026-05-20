@@ -10,7 +10,7 @@ function PostPage() {
     if (!name || !description) return alert('All fields required');
 
     try {
-      await api.post('/items', { name, description });
+      await api.post('items', { name, description });
       alert('Item added!');
       setName('');
       setDescription('');
